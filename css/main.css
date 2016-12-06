@@ -1,0 +1,50 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5 h6 {
+  font-family: 'Oswald', sans-serif;
+}
+
+.top-ad {
+  background-color: #f0392c;
+  text-decoration: none;
+}
+
+.top-ad span a {
+  text-decoration: none;
+  color: white;
+}
+.heading {
+  background-image: url(http://placehold.it/1920x1440);
+  height: 25rem;
+}
+
+.banner {
+  position: relative;
+  overflow: hidden;
+  max-height: 24em;
+}
+
+.banner-content {
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  bottom: 50%;
+  color: white;
+  display: inline;
+  width: 100%;
+}
+
+.nav li {
+
+}
+
+
+a:hover {
+
+}
+
+.current {
+
+}
