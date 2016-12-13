@@ -6,6 +6,14 @@ h1, h2, h3, h4, h5 h6 {
   font-family: 'Oswald', sans-serif;
 }
 
+body, html {
+    height: 100%;
+}
+
+.logo-icon {
+  background-image:
+}
+
 .top-ad {
   background-color: #f0392c;
   text-decoration: none;
@@ -15,11 +23,71 @@ h1, h2, h3, h4, h5 h6 {
   text-decoration: none;
   color: white;
 }
-.heading {
-  background-image: url(http://placehold.it/1920x1440);
-  height: 25rem;
+
+.heading-banner {
+  background-image: url(../images/banner-image.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50rem;
 }
 
+.process-banner {
+  background-image: url(../images/gummy-worms.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50rem;
+}
+
+.store-banner {
+  background-image: url(../images/store-image.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50rem;
+}
+
+section {
+
+}
+
+header {
+  background-color: #AEC5EB;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+footer {
+  background-color: #AEC5EB;
+}
+
+footer span {
+  color: white;
+}
+/*
+.promise {
+  background-image: url("../images/candy-icon.svg");
+  background-repeat: no-repeat;
+  background-position: 140% 130%;
+  background-size: 30rem;
+}
+
+.quality {
+  background-image: url("../images/choco-icon.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-position: 140% 190%;
+  background-size: 30rem;
+}
+*/
 .banner {
   position: relative;
   overflow: hidden;
@@ -30,7 +98,7 @@ h1, h2, h3, h4, h5 h6 {
   position: absolute;
   transform: translateX(-50%);
   left: 50%;
-  bottom: 50%;
+  bottom: 30%;
   color: white;
   display: inline;
   width: 100%;
@@ -42,9 +110,38 @@ h1, h2, h3, h4, h5 h6 {
 
 
 a:hover {
-
+  background-color: red;
 }
 
 .current {
+
+}
+
+@media only screen and (min-width: 25em) {
+
+  .small-box-pad {
+    padding-right: 1rem;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .large-box-pad {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .padleft-map {
+    padding-right: 1rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .med-box-pad {
+    padding-left: 1rem;
+  }
 
 }
