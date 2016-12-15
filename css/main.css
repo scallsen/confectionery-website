@@ -1,3 +1,5 @@
+/* Typography */
+
 html {
   font-family: "Open Sans", sans-serif;
 }
@@ -10,18 +12,67 @@ body, html {
   height: 100%;
 }
 
-h1 {
-  margin: 0;
-}
-
 .logotype {
   font-family: Oswald, sans-serif;
 }
 
+ul li a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+/*Manual non-css tool overrides*/
+h1 {
+  margin: 0;
+}
+
+fieldset {
+  border: 0;
+}
+
+iframe {
+  width: 100%;
+}
+
+.banner {
+  position: relative;
+  overflow: hidden;
+  max-height: 24em;
+}
+
+.embed-item {
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  color: white;
+  display: inline;
+  top: 40%;
+}
+
+/*Decorative Addons*/
 .current {
   background-color: #ed5259;
 }
 
+header {
+  background-color: #ff595e;
+}
+
+footer {
+  background-color: #ff595e;
+  color: white;
+}
+
+footer span {
+  color: white;
+}
+
+a:hover {
+  color: #fde74c;
+}
+
+/* BG-img modules */
 .heading-banner {
   background-image: url("../images/banner-image.jpg");
   background-attachment: fixed;
@@ -49,51 +100,6 @@ h1 {
   height: 50rem;
 }
 
-fieldset {
-  border: 0;
-}
-
-iframe {
-  width: 100%;
-}
-
-header {
-  background-color: #ff595e;
-}
-
-ul li a {
-  text-decoration: none;
-  color: white;
-  text-align: center;
-}
-
-footer {
-  background-color: #ff595e;
-  color: white;
-}
-
-footer span {
-  color: white;
-}
-
-.banner {
-  position: relative;
-  overflow: hidden;
-  max-height: 24em;
-}
-
-.embed-item {
-  position: absolute;
-  transform: translateX(-50%);
-  left: 50%;
-  color: white;
-  display: inline;
-  top: 40%;
-}
-
-a:hover {
-  color: #fde74c;
-}
 
 @media only screen and (min-width: 25em) {
 
