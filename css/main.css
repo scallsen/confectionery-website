@@ -22,7 +22,8 @@ ul li a {
   text-align: center;
 }
 
-/*Manual non-css tool overrides*/
+/* Manual non-css tool overrides */
+
 h1 {
   margin: 0;
 }
@@ -30,11 +31,13 @@ h1 {
 fieldset {
   border: 0;
 }
+
 /* removed until iframe is added
 iframe {
   width: 100%;
 }
 */
+
 .banner {
   position: relative;
   overflow: hidden;
@@ -50,7 +53,8 @@ iframe {
   top: 40%;
 }
 
-/*Decorative Addons*/
+/* Decorative Addons */
+
 .current {
   background-color: #ed5259;
 }
@@ -73,6 +77,7 @@ a:hover {
 }
 
 /* BG-img modules */
+
 .heading-banner {
   background-image: url("../images/banner-image.jpg");
   background-attachment: fixed;
@@ -99,7 +104,6 @@ a:hover {
   background-size: cover;
   height: 50rem;
 }
-
 
 @media only screen and (min-width: 25em) {
 
