@@ -114,6 +114,13 @@ a:hover {
     padding-right: 1rem;
   }
 
+  .map {
+    padding-right: 1rem;
+  }
+
+  .map-container {
+    margin-bottom: 0;
+  }
 }
 
 @media only screen and (min-width: 60em) {
