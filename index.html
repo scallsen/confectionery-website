@@ -15,11 +15,11 @@
 
     <div class="wrapper unit xs-1 s-1 m-1 l-1 xl-1">
       <nav>
-        <ul class="grid list-group-inline text-center">
-          <li class="island unit xs-1-4 s-1-4 m-1-4 l-1-4 xl-1-4"><a href="#">Home</a></li>
-          <li class="island unit s-1-4 s-1-4 m-1-4 l-1-4 xl-1-4"><a href="#">Promise</a></li>
-          <li class="island unit s-1-4 s-1-4 m-1-4 l-1-4 xl-1-4"><a href="#">Process</a></li>
-          <li class="island unit s-1-4 s-1-4 m-1-4 l-1-4 xl-1-4"><a href="#">Contact</a></li>
+        <ul class="logotype grid list-group-inline text-center">
+          <li class="current island-1-2 unit xs-1-4 s-1-4 m-1-4 l-1-4 xl-1-4"><a href="#">BEAU'S</a></li>
+          <li class="island-1-2 unit s-1-4 s-1-4 m-1-4 l-1-4 xl-1-4"><a href="#promise">Promise</a></li>
+          <li class="island-1-2 unit s-1-4 s-1-4 m-1-4 l-1-4 xl-1-4"><a href="#process">Process</a></li>
+          <li class="island-1-2 unit s-1-4 s-1-4 m-1-4 l-1-4 xl-1-4"><a href="#find-us">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -32,7 +32,7 @@
       <h2 class="banner-content max-length text-center gutter-quarter">SPEND $50 IN STORE<br>AND GET A $15 GIFT CARD</h2>
     </div>
 
-    <section class="gutter promise pad-t push wrapper unit xs-1 s-1 m-1 l-1 xl-1">
+    <section id="promise" class="gutter promise pad-t push wrapper unit xs-1 s-1 m-1 l-1 xl-1">
         <div class="grid">
           <div class="unit xs-1 s-1 m-1 l-3-5 xl-3-5">
             <h2 class="yotta">COME IN AND EXPERIENCE<br>THE BEAU'S DIFFERENCE</h2>
@@ -52,7 +52,7 @@
       <h2 class="banner-content max-length text-center gutter-quarter">WE GET IT RIGHT<br>EVERY TIME</h2>
     </div>
 
-    <section class="gutter quality pad-t push wrapper unit xs-1 s-1 m-1 l-1 xl-1">
+    <section id="process" class="gutter quality pad-t push wrapper unit xs-1 s-1 m-1 l-1 xl-1">
         <div class="grid">
           <div class="unit xs-1 s-1 m-1 l-3-5 xl-3-5">
             <h2 class="yotta">FROM GROVE TO FURNACE<br>IT'S ALL ABOUT QUALITY</h2>
@@ -78,7 +78,7 @@
       <h2 class="banner-content max-length text-center gutter-quarter">IN THE HEART<br>OF CANADA'S CAPITAL</h2>
     </div>
 
-    <section class="gutter pad-t push wrapper unit xs-1 s-1 m-1 l-1 xl-1">
+    <section id="find-us" class="gutter pad-t push wrapper unit xs-1 s-1 m-1 l-1 xl-1">
       <h2 class="yotta">FIND US</h2>
       <div class="grid">
         <div class="unit xs-1 s-1 m-3-5 l-3-5 xl-3-5">
@@ -92,7 +92,7 @@
               <p class="push-0">We’re located in the heart of Canada’s capital deep within the Byward Market.</p>
               <p class="push-0">Feel free to drop by for a tasty treat!</p>
             </div>
-            <div class="unit xs-1 s-1 m-1 l-1 xl-1 unit-offset-l-1-5 unit-offset-xl-1-5">
+            <div class="unit xs-1 s-1 m-1 l-1 xl-1">
               <p class="push-0 micro">100 Elgin Street</p>
               <p class="push-0 micro">Ottawa, ON</p>
               <p class="push-0 micro">K2A 9J8</p>
@@ -103,10 +103,41 @@
       </div>
     </section>
 
+   </section>
+
+
+
   </main>
 
-  <footer class="island text-center">
-    <span>© Copyright 2016</span>
+  <footer class="grid">
+
+    <section id="mail-list" class="gutter pad-t wrapper unit xs-1 s-1 m-1 l-1 xl-1">
+     <form class="" action="https://formspree.io/simon.callsen@gmail.com" method="POST">
+       <div class="grid">
+         <div class="unit xs-1 s-1 m-1 l-3-5 xl-3-5">
+           <h2 class="yotta">LET'S GET IN TOUCH</h2>
+         </div>
+       </div>
+       <fieldset class="push-1-2">
+       <legend class="push-1-2">Join our mailing list!</legend>
+         <div class="grid">
+           <div class="push unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+             <label for="email">Email</label>
+             <input id="email" name="email">
+           </div>
+           <div class="push-1 center unit xs-1 s-1 m-1 l-1 xl-1">
+             <button type="submit" class="btn center bold btn-light">Sign up</button>
+           </div>
+         </div>
+       </fieldset>
+       <input type="hidden" name="_subject" value="Join our mailing list">
+     </form>
+    </section>
+
+    <section class="text-center pad-t push wrapper unit xs-1 s-1 m-1 l-1 xl-1">
+      <span>© Copyright 2016</span>
+    </section>
+
   </footer>
 </body>
 </html>

@@ -10,18 +10,16 @@ body, html {
     height: 100%;
 }
 
+.logotype {
+  font-family: 'Oswald', sans-serif;
+}
+
+.current {
+  background-color: #ed5259;
+}
+
 .logo-icon {
   background-image:
-}
-
-.top-ad {
-  background-color: #f0392c;
-  text-decoration: none;
-}
-
-.top-ad span a {
-  text-decoration: none;
-  color: white;
 }
 
 .heading-banner {
@@ -51,12 +49,12 @@ body, html {
   height: 50rem;
 }
 
-section {
-
+fieldset {
+  border: 0;
 }
 
 header {
-  background-color: #AEC5EB;
+  background-color: #FF595E;
 }
 
 nav ul li a {
@@ -66,28 +64,14 @@ nav ul li a {
 }
 
 footer {
-  background-color: #AEC5EB;
+  background-color: #FF595E;
+  color: white;
 }
 
 footer span {
   color: white;
 }
-/*
-.promise {
-  background-image: url("../images/candy-icon.svg");
-  background-repeat: no-repeat;
-  background-position: 140% 130%;
-  background-size: 30rem;
-}
 
-.quality {
-  background-image: url("../images/choco-icon.svg");
-  background-repeat: no-repeat;
-  background-position: top right;
-  background-position: 140% 190%;
-  background-size: 30rem;
-}
-*/
 .banner {
   position: relative;
   overflow: hidden;
@@ -104,18 +88,10 @@ footer span {
   width: 100%;
 }
 
-.nav li {
-
-}
-
-
 a:hover {
-  color: #86a1eb;
+  color: #FDE74C;
 }
 
-.current {
-
-}
 
 @media only screen and (min-width: 25em) {
 
